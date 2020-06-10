@@ -15,3 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('http://rthv1.opencloud.digital/index.php')
+
+WebUI.setText(findTestObject('1/Page_Users/Username'), findTestData('D1').getValue(1, 1))
+
+WebUI.setText(findTestObject('1/Page_Users/Password'), findTestData('D1').getValue(2, 1))
+
+WebUI.click(findTestObject('1/Page_Users/Sign in'))
+
