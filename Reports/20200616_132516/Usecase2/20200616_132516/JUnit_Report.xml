@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase2" time="39.851" tests="2" failures="0" errors="0">
+   <testsuite name="Usecase2" tests="2" failures="0" errors="0" time="39.851" timestamp="2020-06-16 13:25:18" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Usecase2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\DBDcompanies-test\\Reports\\20200616_132516\\Usecase2\\20200616_132516"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\DBDcompanies-test\\Reports\\20200616_132516\\Usecase2\\20200616_132516\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="a5eef6fc0cf270d99a4ef349c3c397ae"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1" time="12.079" classname="Test Cases/1" status="PASSED">
+         <system-out><![CDATA[2020-06-16 13:25:18 - [TEST_CASE][PASSED] - Test Cases/1: Test Cases/1
+
+2020-06-16 13:25:18 - [TEST_STEP][PASSED] - openBrowser("http://rthv1.opencloud.digital/index.php"): Browser is opened with url: 'http://rthv1.opencloud.digital/index.php'
+
+2020-06-16 13:25:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-16 13:25:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-16 13:25:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://rthv1.opencloud.digital/index.php'
+
+2020-06-16 13:25:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-16 13:25:26 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-16 13:25:26 - [TEST_STEP][PASSED] - setText(findTestObject("1/Page_Users/Username"), findTestData("D1").getValue(1, 1)): Text 'admin' is set on object 'Object Repository/1/Page_Users/Username'
+
+2020-06-16 13:25:26 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/1/Page_Users/Username'
+
+2020-06-16 13:25:26 - [TEST_STEP][PASSED] - setText(findTestObject("1/Page_Users/Password"), findTestData("D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/1/Page_Users/Password'
+
+2020-06-16 13:25:27 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/1/Page_Users/Password'
+
+2020-06-16 13:25:27 - [TEST_STEP][PASSED] - click(findTestObject("1/Page_Users/Sign in")): Object: 'Object Repository/1/Page_Users/Sign in' is clicked on
+
+2020-06-16 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1/Page_Users/Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/5" time="26.882" classname="Test Cases/5" status="PASSED">
+         <system-out><![CDATA[2020-06-16 13:25:30 - [TEST_CASE][PASSED] - Test Cases/5: Test Cases/5
+
+2020-06-16 13:25:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/DBD Companies")): Object: 'Object Repository/Page_Home/DBD Companies' is clicked on
+
+2020-06-16 13:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/DBD Companies' is clicked on
+
+2020-06-16 13:25:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_DBDCompanies/button_Request New Account Not in DBD")): Object: 'Object Repository/Page_DBDCompanies/button_Request New Account Not in DBD' is clicked on
+
+2020-06-16 13:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DBDCompanies/button_Request New Account Not in DBD' is clicked on
+
+2020-06-16 13:25:38 - [TEST_STEP][PASSED] - setText(findTestObject("Not in DBD/Page_Accounts/input__accountname"), findTestData("D4").getValue(1, 1)): Text 'ภูมิพัจน์' is set on object 'Object Repository/Not in DBD/Page_Accounts/input__accountname'
+
+2020-06-16 13:25:39 - [MESSAGE][PASSED] - Text 'ภูมิพัจน์' is set on object 'Object Repository/Not in DBD/Page_Accounts/input__accountname'
+
+2020-06-16 13:25:39 - [TEST_STEP][PASSED] - setText(findTestObject("Not in DBD/Page_Accounts/accountnameENG"), findTestData("D4").getValue(2, 1)): Text 'pumipat' is set on object 'Object Repository/Not in DBD/Page_Accounts/accountnameENG'
+
+2020-06-16 13:25:40 - [MESSAGE][PASSED] - Text 'pumipat' is set on object 'Object Repository/Not in DBD/Page_Accounts/accountnameENG'
+
+2020-06-16 13:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Not in DBD/Page_Accounts/New Select/Customer SegmentN")): Object: 'Object Repository/Not in DBD/Page_Accounts/New Select/Customer SegmentN' is clicked on
+
+2020-06-16 13:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Not in DBD/Page_Accounts/New Select/Customer SegmentN' is clicked on
+
+2020-06-16 13:25:40 - [TEST_STEP][PASSED] - setText(findTestObject("Not in DBD/Page_Accounts/input Customer Segment"), findTestData("D4").getValue(3, 1)): Text 'SME' is set on object 'Object Repository/Not in DBD/Page_Accounts/input Customer Segment'
+
+2020-06-16 13:25:41 - [MESSAGE][PASSED] - Text 'SME' is set on object 'Object Repository/Not in DBD/Page_Accounts/input Customer Segment'
+
+2020-06-16 13:25:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Not in DBD/Page_Accounts/input Customer Segment"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Not in DBD/Page_Accounts/input Customer Segment'
+
+2020-06-16 13:25:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Not in DBD/Page_Accounts/input Customer Segment'
+
+2020-06-16 13:25:42 - [TEST_STEP][PASSED] - click(findTestObject("Not in DBD/Page_Accounts/New Select/Company levelN")): Object: 'Object Repository/Not in DBD/Page_Accounts/New Select/Company levelN' is clicked on
+
+2020-06-16 13:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Not in DBD/Page_Accounts/New Select/Company levelN' is clicked on
+
+2020-06-16 13:25:42 - [TEST_STEP][PASSED] - setText(findTestObject("Not in DBD/Page_Accounts/New Select/input Company level 1"), findTestData("D4").getValue(4, 1)): Text 'Head Office' is set on object 'Object Repository/Not in DBD/Page_Accounts/New Select/input Company level 1'
+
+2020-06-16 13:25:43 - [MESSAGE][PASSED] - Text 'Head Office' is set on object 'Object Repository/Not in DBD/Page_Accounts/New Select/input Company level 1'
+
+2020-06-16 13:25:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Not in DBD/Page_Accounts/New Select/input Company level 1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Not in DBD/Page_Accounts/New Select/input Company level 1'
+
+2020-06-16 13:25:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Not in DBD/Page_Accounts/New Select/input Company level 1'
+
+2020-06-16 13:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Not in DBD/Page_Accounts/New Select/JPN")): Object: 'Object Repository/Not in DBD/Page_Accounts/New Select/JPN' is clicked on
+
+2020-06-16 13:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Not in DBD/Page_Accounts/New Select/JPN' is clicked on
+
+2020-06-16 13:25:44 - [TEST_STEP][PASSED] - setText(findTestObject("Not in DBD/Page_Accounts/input japanese"), findTestData("D4").getValue(5, 1)): Text 'Yes' is set on object 'Object Repository/Not in DBD/Page_Accounts/input japanese'
+
+2020-06-16 13:25:45 - [MESSAGE][PASSED] - Text 'Yes' is set on object 'Object Repository/Not in DBD/Page_Accounts/input japanese'
+
+2020-06-16 13:25:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Not in DBD/Page_Accounts/input japanese"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Not in DBD/Page_Accounts/input japanese'
+
+2020-06-16 13:25:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Not in DBD/Page_Accounts/input japanese'
+
+2020-06-16 13:25:46 - [TEST_STEP][PASSED] - setText(findTestObject("Not in DBD/Page_Accounts/Purchasing"), findTestData("D4").getValue(6, 1)): Text 'จัดซื้อแยก Localized Purchasing' is set on object 'Object Repository/Not in DBD/Page_Accounts/Purchasing'
+
+2020-06-16 13:25:47 - [MESSAGE][PASSED] - Text 'จัดซื้อแยก Localized Purchasing' is set on object 'Object Repository/Not in DBD/Page_Accounts/Purchasing'
+
+2020-06-16 13:25:47 - [TEST_STEP][PASSED] - setText(findTestObject("Not in DBD/Page_Accounts/Branch ID"), findTestData("D4").getValue(7, 1)): Text '00001' is set on object 'Object Repository/Not in DBD/Page_Accounts/Branch ID'
+
+2020-06-16 13:25:48 - [MESSAGE][PASSED] - Text '00001' is set on object 'Object Repository/Not in DBD/Page_Accounts/Branch ID'
+
+2020-06-16 13:25:48 - [TEST_STEP][PASSED] - click(findTestObject("Not in DBD/Page_Accounts/New Select/Company statusN")): Object: 'Object Repository/Not in DBD/Page_Accounts/New Select/Company statusN' is clicked on
+
+2020-06-16 13:25:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Not in DBD/Page_Accounts/New Select/Company statusN' is clicked on
+
+2020-06-16 13:25:48 - [TEST_STEP][PASSED] - setText(findTestObject("Not in DBD/Page_Accounts/input company status"), findTestData("D4").getValue(8, 1)): Text 'Active' is set on object 'Object Repository/Not in DBD/Page_Accounts/input company status'
+
+2020-06-16 13:25:49 - [MESSAGE][PASSED] - Text 'Active' is set on object 'Object Repository/Not in DBD/Page_Accounts/input company status'
+
+2020-06-16 13:25:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Not in DBD/Page_Accounts/input company status"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Not in DBD/Page_Accounts/input company status'
+
+2020-06-16 13:25:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Not in DBD/Page_Accounts/input company status'
+
+2020-06-16 13:25:50 - [TEST_STEP][PASSED] - setText(findTestObject("Not in DBD/Page_Accounts/Phone"), findTestData("D4").getValue(9, 1)): Text '0945839838' is set on object 'Object Repository/Not in DBD/Page_Accounts/Phone'
+
+2020-06-16 13:25:51 - [MESSAGE][PASSED] - Text '0945839838' is set on object 'Object Repository/Not in DBD/Page_Accounts/Phone'
+
+2020-06-16 13:25:51 - [TEST_STEP][PASSED] - setText(findTestObject("Not in DBD/Page_Accounts/Address"), findTestData("D4").getValue(10, 1)): Text 'Chiang Mai University' is set on object 'Object Repository/Not in DBD/Page_Accounts/Address'
+
+2020-06-16 13:25:51 - [MESSAGE][PASSED] - Text 'Chiang Mai University' is set on object 'Object Repository/Not in DBD/Page_Accounts/Address'
+
+2020-06-16 13:25:51 - [TEST_STEP][PASSED] - click(findTestObject("Not in DBD/Page_Accounts/searchZ")): Object: 'Object Repository/Not in DBD/Page_Accounts/searchZ' is clicked on
+
+2020-06-16 13:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Not in DBD/Page_Accounts/searchZ' is clicked on
+
+2020-06-16 13:25:52 - [TEST_STEP][PASSED] - switchToWindowTitle("ZONE"): Switched to window with title: 'ZONE'
+
+2020-06-16 13:25:54 - [MESSAGE][PASSED] - Switched to window with title: 'ZONE'
+
+2020-06-16 13:25:54 - [TEST_STEP][PASSED] - click(findTestObject("Not in DBD/Page_ZONE/a_270207")): Object: 'Object Repository/Not in DBD/Page_ZONE/a_270207' is clicked on
+
+2020-06-16 13:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Not in DBD/Page_ZONE/a_270207' is clicked on
+
+2020-06-16 13:25:54 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-06-16 13:25:56 - [TEST_STEP][PASSED] - setText(findTestObject("Not in DBD/Page_Accounts/Tax NO"), findTestData("D4").getValue(12, 1)): Text '0121231234' is set on object 'Object Repository/Not in DBD/Page_Accounts/Tax NO'
+
+2020-06-16 13:25:57 - [MESSAGE][PASSED] - Text '0121231234' is set on object 'Object Repository/Not in DBD/Page_Accounts/Tax NO'
+
+2020-06-16 13:25:57 - [TEST_STEP][PASSED] - click(findTestObject("Not in DBD/Page_Accounts/button_Save")): Object: 'Object Repository/Not in DBD/Page_Accounts/button_Save' is clicked on
+
+2020-06-16 13:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Not in DBD/Page_Accounts/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-16 13:25:18 - [TEST_SUITE][PASSED] - Usecase2: Test Cases/5]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

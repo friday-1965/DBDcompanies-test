@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase5" time="36.453" tests="3" failures="0" errors="0">
+   <testsuite name="Usecase5" tests="3" failures="0" errors="0" time="36.453" timestamp="2020-06-16 13:36:21" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Usecase5">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\DBDcompanies-test\\Reports\\20200616_133620\\Usecase5\\20200616_133620"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\DBDcompanies-test\\Reports\\20200616_133620\\Usecase5\\20200616_133620\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="77c1d46f5b5e043ba3c3ae736733c538"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1" time="12.27" classname="Test Cases/1" status="PASSED">
+         <system-out><![CDATA[2020-06-16 13:36:22 - [TEST_CASE][PASSED] - Test Cases/1: Test Cases/1
+
+2020-06-16 13:36:22 - [TEST_STEP][PASSED] - openBrowser("http://rthv1.opencloud.digital/index.php"): Browser is opened with url: 'http://rthv1.opencloud.digital/index.php'
+
+2020-06-16 13:36:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-16 13:36:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-16 13:36:27 - [MESSAGE][PASSED] - Browser is opened with url: 'http://rthv1.opencloud.digital/index.php'
+
+2020-06-16 13:36:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-16 13:36:29 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-16 13:36:29 - [TEST_STEP][PASSED] - setText(findTestObject("1/Page_Users/Username"), findTestData("D1").getValue(1, 1)): Text 'admin' is set on object 'Object Repository/1/Page_Users/Username'
+
+2020-06-16 13:36:30 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/1/Page_Users/Username'
+
+2020-06-16 13:36:30 - [TEST_STEP][PASSED] - setText(findTestObject("1/Page_Users/Password"), findTestData("D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/1/Page_Users/Password'
+
+2020-06-16 13:36:31 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/1/Page_Users/Password'
+
+2020-06-16 13:36:31 - [TEST_STEP][PASSED] - click(findTestObject("1/Page_Users/Sign in")): Object: 'Object Repository/1/Page_Users/Sign in' is clicked on
+
+2020-06-16 13:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1/Page_Users/Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/8" time="11.537" classname="Test Cases/8" status="PASSED">
+         <system-out><![CDATA[2020-06-16 13:36:34 - [TEST_CASE][PASSED] - Test Cases/8: Test Cases/8
+
+2020-06-16 13:36:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/DBD Companies")): Object: 'Object Repository/Page_Home/DBD Companies' is clicked on
+
+2020-06-16 13:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/DBD Companies' is clicked on
+
+2020-06-16 13:36:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DBDCompanies/input company"), findTestData("D6").getValue(1, 1)): Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/Page_DBDCompanies/input company'
+
+2020-06-16 13:36:42 - [MESSAGE][PASSED] - Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/Page_DBDCompanies/input company'
+
+2020-06-16 13:36:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_DBDCompanies/button_Search company")): Object: 'Object Repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-16 13:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-16 13:36:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-16 13:36:45 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/9" time="11.802" classname="Test Cases/9" status="PASSED">
+         <system-out><![CDATA[2020-06-16 13:36:45 - [TEST_CASE][PASSED] - Test Cases/9: Test Cases/9
+
+2020-06-16 13:36:46 - [TEST_STEP][PASSED] - click(findTestObject("More/a_Sunjido Co Ltd")): Object: 'Object Repository/More/a_Sunjido Co Ltd' is clicked on
+
+2020-06-16 13:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/More/a_Sunjido Co Ltd' is clicked on
+
+2020-06-16 13:36:52 - [TEST_STEP][PASSED] - click(findTestObject("Edit/Page_DBDCompanies/Edit")): Object: 'Object Repository/Edit/Page_DBDCompanies/Edit' is clicked on
+
+2020-06-16 13:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit/Page_DBDCompanies/Edit' is clicked on
+
+2020-06-16 13:36:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-06-16 13:36:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-06-16 13:36:55 - [TEST_STEP][PASSED] - click(findTestObject("Edit/Page_DBDCompanies/button_Save Edit")): Object: 'Object Repository/Edit/Page_DBDCompanies/button_Save Edit' is clicked on
+
+2020-06-16 13:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit/Page_DBDCompanies/button_Save Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-16 13:36:21 - [TEST_SUITE][PASSED] - Usecase5: Test Cases/9]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
